@@ -11,4 +11,5 @@ $headers = "From: $email";
 
 mail($to, $email_subject, $email_body, $headers);
 echo "El mensaje se ha enviado correctamente";
+
 ?>
